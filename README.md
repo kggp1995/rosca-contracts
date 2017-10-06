@@ -25,7 +25,7 @@ Then run testrpc which will serve as the blockchain provider:
 In another terminal, run the tests using
 
 ```
-tools/build/run-test.sh
+sh tools/build/run-tests.sh
 ```
 
 This will create a copy of the smart contract that exposes its internal state variable and functions, then run all tests on that "publicized" copy.
